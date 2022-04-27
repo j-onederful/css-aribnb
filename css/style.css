@@ -1,3 +1,80 @@
-h1 {
-  color: salmon;
+* {
+  /* css browser resert */
+  margin: 0;
+  box-sizing: border-box;
+  /* font styling */
+  font-family: sans-serif;
+  color: #55595C
 }
+body {
+  background-color: #EDEFEC;
+}
+.images img {
+  /* make image workable size */
+  width: 20rem;
+  height: 25rem;
+  /* stop distortion */
+  object-fit: cover;
+}
+.container-1 {
+  text-align: center;
+  margin: 1rem;
+}
+.container-1 section {
+  display: inline-block;
+  position: relative;
+}
+.images p{
+  /* font styles */
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  /* use top and left to move text */
+  top: 50%;
+  left: 50%;
+  /* TRANSFORM TRANSLATES TO CENTER USING NEGATIVE VALUES */
+  transform: translate(-50%,-50%);
+}
+.container-1 button {
+  /* set coloring */
+  background-color: white;
+  border: 1px solid #55595C;
+  /* set sizing */
+  width: 20rem;
+  padding: .5rem;
+  font-weight: 600;
+}
+.container-2 {
+  text-align: center;
+  margin: 1rem;
+} 
+.images-2 img {
+  /* make image workable size */
+  width: 20rem;
+  height: 25rem;
+  /* stop distortion */
+  object-fit: cover;
+}
+.container-2 section{
+  display: inline-block;
+  position: relative;
+}
+.images-2 p{
+  /* font styles */
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  /* use top and left to move text */
+  top: 50%;
+  left: 50%;
+  /* TRANSFORM TRANSLATES TO CENTER USING NEGATIVE VALUES */
+  transform: translate(-50%,-50%);
+.container-2 button {
+    /* set coloring */
+    background-color: white;
+    border: 1px solid #55595C;
+    /* set sizing */
+    width: 20rem;
+    padding: .5rem;
+    font-weight: 600;
+  }
