@@ -69,7 +69,8 @@ body {
   left: 50%;
   /* TRANSFORM TRANSLATES TO CENTER USING NEGATIVE VALUES */
   transform: translate(-50%,-50%);
-.container-2 button {
+
+  .container-2 button {
     /* set coloring */
     background-color: white;
     border: 1px solid #55595C;
@@ -77,4 +78,4 @@ body {
     width: 20rem;
     padding: .5rem;
     font-weight: 600;
-  }
+}
